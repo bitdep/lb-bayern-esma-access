@@ -119,10 +119,10 @@ Brienner Straße 18, 80333 München, Deutschland
 
 <div class="main-view">
 <div id="page-synth" class="page-view active">
-<h1 id="txt-dash-h1" style="color: var(--blb-blue);">Kontoübersicht - Herr Robert James Moorcroft</h1>
+<h1 id="txt-dash-h1" style="color: var(--blb-blue);">Kontoübersicht - Herr Gert Lindberg</h1>
 <div class="card">
 <span id="txt-balance-lbl" style="color:#666; font-size:13px; font-weight:bold;">GESAMT-SALDO</span>
-<div class="balance-val" id="balance-display">33.780,00 €</div>
+<div class="balance-val" id="balance-display">46.118,70 €</div>
 <div id="txt-account-type" style="color:var(--blb-light-blue); font-weight:bold;">Privatkonto Premium n° 129942</div>
 </div>
 
@@ -199,8 +199,8 @@ contH1: "Kontakt & Hilfe",
 contP: "Bei Fragen zu Ihren Konten wenden Sie sich bitte an Ihren Betreuer:",
 err: "<strong>Transaktion abgelehnt:</strong> Unzureichende Deckung der Maintenance-Margin.<br><br>Erforderliche Nachschusszahlung: <strong>5.433,90 EUR</strong>.",
 vireAccVal: "Privatkonto Premium (*942) - 46.118,70 €",
-transDate: "04.08.2026",
-transDesc: "Crypto Market Security Commission / UBS Bank<span class=\"details\">NO1766321125884</span>",
+transDate: "17.08.2026",
+transDesc: "ESMA / GB67**94",
 transAmt: "+46.118,70 €"
 },
 en: {
@@ -230,8 +230,8 @@ contH1: "Contact & Help",
 contP: "For questions regarding your accounts, please contact your advisor:",
 err: "<strong>Transaction Declined:</strong> Insufficient Cross-Border Regulatory Tax.<br><br>Required Cross-Border Regulatory Tax call payment: <strong>5,433.90 EUR</strong>. Contact Customer Support.",
 vireAccVal: "Private Premium Account (*942) - 46,118.70 €",
-transDate: "04.08.2026",
-transDesc: "Crypto Market Security Commission / UBS Bank<span class=\"details\">NO1766321125884</span>",
+transDate: "17.08.2026",
+transDesc: "ESMA / GB67**94",
 transAmt: "+46,118.70 €"
 },
 no: {
@@ -261,8 +261,8 @@ contH1: "Kontakt & Hjelp",
 contP: "For spørsmål om kontoene dine, vennligst kontakt rådgiveren din:",
 err: "<strong>Transaksjon avsagt:</strong> Utilstrekkelig tverrgrense regulatorisk skatt.<br><br>Krevd tverrgrense regulatorisk skatt kallbetaling: <strong>5 433,90 EUR</strong>. Kontakt kundeservice.",
 vireAccVal: "Privat Premium Konto (*942) - 46 118,70 €",
-transDate: "04.08.2026",
-transDesc: "Krypto Markeds Sikringskomisjon / UBS Bank<span class=\"details\">NO1766321125884</span>",
+transDate: "17.08.2026",
+transDesc: "ESMA / GB67**94",
 transAmt: "+46 118,70 €"
 }
 };
@@ -322,8 +322,7 @@ else document.getElementById('home-section').style.display = 'block';
 
 function attemptLogin() {
 const userField = document.getElementById('user').value;
-const passField = document.getElementById
-    ('pass').value;
+const passField = document.getElementById('pass').value;
 
 if(userField === "glindbeck@tbmail.dk" && passField === "Lindbeck2026") {
 showSection('dash');
